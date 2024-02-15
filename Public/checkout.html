@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce: Checkout</title>
+    <link rel="title icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/checkout.css">
+</head>
+<body>
+    <nav class="navbar"></nav>
+
+    <div class="alert-box">
+        <img src="img/error.png" alt="" class="alert-img">
+        <p class="alert-msg"></p>
+    </div>
+
+    <div class="form">
+        <h1 class="heading">checkout</h1>
+        <p class="text">delivery address</p>
+        <div class="field">                    
+            <input class="input" type="text" id="address" placeholder="address">
+            <label for="address" class="label">|<br>address</label>
+        </div>
+        <div class="field">
+            <input class="input" type="text" id="street" placeholder="street">
+            <label for="street" class="label">|<br>street</label>
+        </div>
+        <div class="three-input-container">
+            <div class="field">                    
+                <input class="input" type="text" id="city" placeholder="city">
+                <label for="city" class="label">|<br>city</label>
+            </div>
+            <div class="field">                    
+                <input class="input" type="text" id="state" placeholder="state">
+                <label for="state" class="label">|<br>state</label>
+            </div>
+            <div class="field">                    
+                <input class="input" type="text" id="zipcode" placeholder="zip code">
+                <label for="zipcode" class="label">|<br>zipcode</label>
+            </div>
+        </div>
+        <div class="field">
+            <input class="input" type="text" id="landmark" placeholder="land mark">
+            <label for="landmark" class="label">|<br>land mark</label>
+        </div>
+    </div>
+
+    <div class="cart-section">
+        <div class="product-list">
+            <p class="section-heading">your cart</p>
+            <div class="cart">
+
+            </div>
+        </div>
+        <div class="checkout-section">
+            <div class="checkout-box">
+                <p class="text">your total bill</p>
+                <h1 class="bill">$00</h1>
+                <button class="place-order-btn"> place order</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/nav.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/token.js"></script>
+    <script src="js/checkout.js"></script>
+</body>
+</html>
